@@ -294,7 +294,19 @@ flutter config --clear-features
 - [iwrqk/iwrqk](https://github.com/iwrqk/iwrqk) - 优秀的 Flutter 实现的 Iwara 客户端
 - [wgh136/PicaComic](https://github.com/wgh136/PicaComic) - 结构良好的 Flutter 漫画应用
 
-项目中的许多实现方式和最佳实践都是从这些仓库中学习得来。 
+项目中的许多实现方式和最佳实践都是从这些仓库中学习得来。
+
+## 🚀 GitHub Actions 构建工作流
+
+本项目已包含完整的 GitHub Actions 自动构建工作流。关于如何使用工作流的详细说明，请参考 [工作流使用指南](docs/WORKFLOW_GUIDE.md)。
+
+**快速开始：**
+1. 进入仓库的 `Actions` 标签页
+2. 选择 `Flutter Build` 工作流
+3. 点击 `Run workflow` 并选择要构建的平台
+4. 构建完成后下载构建产物
+
+工作流支持构建 Android、Windows、macOS、iOS 和 Linux 平台。
 
 ## Android 签名配置
 

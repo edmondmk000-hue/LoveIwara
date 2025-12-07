@@ -298,6 +298,18 @@ The development of this project was inspired by the following excellent projects
 
 Many implementation methods and best practices in the project were learned from these repositories.
 
+## 🚀 GitHub Actions Build Workflow
+
+This project includes a complete GitHub Actions workflow for automated builds. For detailed instructions on how to use the workflow, please refer to the [Workflow Guide](docs/WORKFLOW_GUIDE.md).
+
+**Quick Start:**
+1. Go to the repository's `Actions` tab
+2. Select `Flutter Build` workflow
+3. Click `Run workflow` and select the platforms you want to build
+4. Download the build artifacts after completion
+
+The workflow supports building for Android, Windows, macOS, iOS, and Linux platforms.
+
 ## Android Signing Configuration
 
 Before building the Android version, you need to configure the correct signing information to generate the official release APK. Please follow these steps:
